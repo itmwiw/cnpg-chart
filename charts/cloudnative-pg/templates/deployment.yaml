@@ -92,9 +92,6 @@ spec:
           readOnlyRootFilesystem: true
           runAsUser: null
           runAsGroup: null
-          capabilities:
-            drop:
-              - "ALL"
         volumeMounts:
         - mountPath: /controller
           name: scratch-data
